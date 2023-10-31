@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form using DOM Manipulation</title>
+  <link rel="stylesheet" href="/form.css" />
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <h1 id="title">FORM</h1>
+  <p id="description">Using DOM Manipulation</p>
+  <form id="form">
+    <!--First Name-->
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required /><br /><br />
+
+    <!--Last Name-->
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required /><br /><br />
+
+    <!--Address-->
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="5" cols="40"></textarea><br /><br />
+
+    <!--Pincode-->
+    <label for="pincode">Pincode:</label>
+    <input type="text" id="pincode" name="pincode" required /><br /><br />
+
+    <!--Gender-->
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" value="Male" /> Male
+    <input type="radio" name="gender" value="Female" /> Female <br /><br />
+
+    <!--Food-->
+    <label>Choice of Food :</label>
+    <input type="checkbox" name="food" value="Pizza" /> Pizza
+    <input type="checkbox" name="food" value="Burger" /> Burger
+    <input type="checkbox" name="food" value="Pasta" /> Pasta
+    <input type="checkbox" name="food" value="Salad" /> Salad
+    <input type="checkbox" name="food" value="Sushi" /> Sushi<br /><br />
+
+    <!--Country-->
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required /><br /><br />
+
+    <!--State-->
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required /><br /><br />
+
+    <input type="submit" value="Submit" id="submit" />
+  </form>
+
+  <table id="dataTable">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Address</th>
+      <th>Pincode</th>
+      <th>Gender</th>
+      <th>Food</th>
+      <th>Country</th>
+      <th>State</th>
+    </tr>
+  </table>
+  <!-- <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script> test suite-->
+</body>
+
+</html>
